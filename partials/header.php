@@ -69,8 +69,11 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
 
 
- include 'partials/loginmodal.php';
- include 'partials/signupmodal.php';
+  
+  include "partials/loginmodal.php";
+  include "partials/signupmodal.php"; 
+  
+ 
 
 
  if(isset($_GET['$signupsucess']) && $_GET['$signupsuccess']=="true"){

@@ -86,7 +86,7 @@
                                       <div class="card-body">
                                             <h5 class="card-title"><a href="threadlist.php?catid=' . $id . '">' . $cat . '</a></h5>
                                             <p class="card-text">' . substr($desc, 0, 90). '... </p>
-                                            <a href="threadlist.php?catid=' . $id . '" class="btn btn-primary">View Threads</a>
+                                            <a href="threadlist.php?catid=' . $id . '" class="btn btn-primary">View ' .$cat. ' Problem</a>
                                         </div>
                               </div>
                          </div>';

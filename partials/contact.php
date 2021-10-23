@@ -15,10 +15,15 @@
 
   <body>
 
-    <?php
-          require "header.php";
-     ?>
+   
+    
 
+     <?php
+           include "header.php";
+     ?> 
+ 
+    <h1>contact detail </h1>
+    
 
        
 
